@@ -1,0 +1,125 @@
+#banner {
+    height: 180px;
+    border-bottom: 4px solid grey;
+}
+
+body {
+    background-color: #cfcfcf;
+}
+
+#application-title {
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: fantasy;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 45px;
+    
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.main-section {
+    text-align: center;
+    justify-content: center;
+}
+
+.rounded-image {
+    width: 75%;
+}
+
+.rounded-image-two {
+    width: 100%;
+}
+
+.general-text {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.75rem;
+    font-weight: 200;
+}
+
+.info-text {
+    margin-top: 50px;
+    font-size: 1.75rem;
+    font-weight: 200;
+}
+
+.menu-section {
+    font-size: 1.75rem;
+}
+
+hr {
+    border: 2px dotted #ff0000;
+    border-style: none none dotted;
+    color: #fff; 
+    background-color: #fff;
+}
+
+.form-border {
+    border-right: 1px solid darkred;
+    padding-right: 20px;
+}
+
+
+
+.top {
+    width: 100%;
+    color: #8A966C;
+    padding-top: 10px;
+    background-color: #2C2C2C;
+    border-top: 4px solid grey;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.input-footer {
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.bottom {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    color: grey;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+    .input-footer{
+        width: 100%;
+    }
+    .rounded.rounded-image {
+        width: 340px;
+    }
+    .row {
+    text-align: center;
+    }
+    .form-border {
+        border: none;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #banner {
+        background-image: url('../Imagini/bannerunder600.jpg');
+    }
+} 
+@media screen and (min-width: 600px) {
+    #banner {
+        background-image: url('../Imagini/bannerover600.jpeg');
+    }
+    .col-sm {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+}
